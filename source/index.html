@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width">
     <meta name="google" content="notranslate">
     <meta name="format-detection" content="telephone=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
 
-    <title>DL Academy</title>
+    <title>Amina Akuseva</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
 
@@ -15,26 +18,20 @@
       docElement.className = docElement.className.replace(/\bno-js\b/, '') + ' js';
     </script>
 
-    <!-- Favicon -->
+  <link rel="stylesheet" href="css/style.min.css">
 
-    <!-- build:css -->
-    <link href="css/style.min.css" rel="stylesheet">
-    <!-- endbuild -->
   </head>
   <body>
-    <div class="wrapper">
-      <main class="content">
-        <div class="coming-soon">
-          <h1 class="coming-soon__title">
-            <span>A</span>
-            <span>T</span>
-            <span>X</span>
-          </h1>
-        </div>
-      </main>
-      @@include('blocks/footer.html')
-    </div>
+
+    @@include('blocks/header.html')
+
+    <main>
+
+    </main>
+
+    @@include('blocks/footer.html')
 
     <script src="js/app.js" defer></script>
+    <script src="js/menu.js"></script>
   </body>
 </html>
