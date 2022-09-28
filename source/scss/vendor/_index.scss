@@ -1,0 +1,67 @@
+.about-me {
+    background: #F6F6F6;
+    text-align: center;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.about-me__img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 405px;
+    margin-left: -10%;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.about-me__img img {
+    margin-bottom: 20px;
+}
+
+.about-me__img1 {
+    width: 480px;
+    height: 135px;
+}
+
+.about-me__img2 {
+    margin-left: 20%;
+}
+
+.about-me__img2, .about-me__img3 {
+    width: 480px;
+    height: 114px;
+}
+
+.skills {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.skills__img {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.skills__img img {
+    width: 180px;
+    height: 168px;
+    margin-right: 25px;
+    margin-top: 50px;
+}
+
+.skills__img img:nth-child(5) {
+    margin-right: 0px;
+}
+
+.skills__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #070707;
+    margin-top: 20px;
+}
