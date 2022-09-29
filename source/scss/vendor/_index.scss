@@ -65,3 +65,60 @@
     color: #070707;
     margin-top: 20px;
 }
+
+.about-me-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .about-me-mobile {
+        display: block;
+        background: #F6F6F6;
+        text-align: center;
+        padding-top: 40px;
+        display: flex;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+
+    .about-me-mobile__img {
+        display: flex;
+        flex-wrap: wrap;
+        width: 279px;
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .about-me-mobile__img img {
+        margin-bottom: 20px;
+    }
+
+    .about-me-mobile__img1 {
+        width: 278px;
+        height: 220px;
+    }
+
+    .about-me-mobile__img2, .about-me-mobile__img3 {
+        width: 279px;
+        height: 178px;
+    }
+
+    .about-me {
+        display: none;
+    }
+
+    .skills {
+        justify-content: space-evenly;
+    }
+
+    .skills__img img {
+        width: 130px;
+        height: 128px;
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    .skills__img img:nth-child(1n) {
+        margin-right: 10px;
+    }
+}
