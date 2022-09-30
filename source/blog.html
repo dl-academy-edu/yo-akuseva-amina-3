@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <title>My blog</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <script>
+      var docElement = document.documentElement;
+      docElement.className = docElement.className.replace(/\bno-js\b/, '') + ' js';
+    </script>
+
+  <link rel="stylesheet" href="css/style.min.css">
+
+  </head>
+  <body>
+
+    @@include('blocks/header.html')
+
+    <main class="font container">
+        <section class="search">
+            <h1 class="title">My blog</h1>
+
+            <fieldset class="tags">
+                <legend class="title__list">Tags</legend>
+                <ul class="tags__list undotted">
+                    <li>
+                        <label class="">
+                            <input type="checkbox" class="checkbox1__input_tags" checked>                                
+                            <span class="checkbox__span_tags1"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="">
+                            <input type="checkbox" class="checkbox2__input_tags">
+                            <span class="checkbox__span_tags2"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="">
+                            <input type="checkbox" class="checkbox3__input_tags">
+                            <span class="checkbox__span_tags3"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="">
+                            <input type="checkbox" class="checkbox4__input_tags">
+                            <span class="checkbox__span_tags4"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="">
+                            <input type="checkbox" class="checkbox5__input_tags">
+                            <span class="checkbox__span_tags5"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="">
+                            <input type="checkbox" class="checkbox6__input_tags" checked>
+                            <span class="checkbox__span_tags6"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="">
+                            <input type="checkbox" class="checkbox7__input_tags">
+                            <span class="checkbox__span_tags7"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="">
+                            <input type="checkbox" class="checkbox8__input_tags">
+                            <span class="checkbox__span_tags8"></span>
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+        </section>
+      
+    </main>
+
+    @@include('blocks/footer.html')
+
+    <script src="js/app.js" defer></script>
+    <script src="js/menu.js"></script>
+  </body>
+</html>
