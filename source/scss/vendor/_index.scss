@@ -1,3 +1,28 @@
+.title_h1 {
+    width: 150px;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 57px;
+    color: #070707;
+    margin-bottom: 0px;
+}
+
+.persone_name {
+    display: flex;
+    align-items: flex-end;
+}
+
+.persone_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #070707;
+    margin-bottom: 9px;
+    margin-left: 90px;
+    width: 200px;
+}
+
+
 .about-me {
     background: #F6F6F6;
     text-align: center;
@@ -121,4 +146,22 @@
     .skills__img img:nth-child(1n) {
         margin-right: 10px;
     }
+}
+
+//SWIPER// 
+
+.slide1000 {
+    display: none;
+}
+
+.slide300 {
+    display: none;
+}
+
+.slide__div {
+    max-width: 100%;
+}
+
+.slide__div .slide {
+    width: 1000px;
 }
