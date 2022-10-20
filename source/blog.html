@@ -29,55 +29,55 @@
         <section class="section_blog">
             <h1 class="title title_blog">My blog</h1>
 
-            <div class="search">
+            <form name="searchForm" class="search">
                 <fieldset class="tags">
                     <legend class="title__list">Tags</legend>
                     <ul class="tags__list undotted">
                         <li>
                             <label class="">
-                                <input type="checkbox" class="checkbox1__input_tags" checked>                                
+                                <input type="checkbox" class="checkbox1__input_tags" name="tags" value="blue" checked>                                
                                 <span class="checkbox__span_tags1"></span>
                             </label>
                         </li>
                         <li>
                             <label class="">
-                                <input type="checkbox" class="checkbox2__input_tags">
+                                <input type="checkbox" class="checkbox2__input_tags" name="tags" value="lightblue">
                                 <span class="checkbox__span_tags2"></span>
                             </label>
                         </li>
                         <li>
                             <label class="">
-                                <input type="checkbox" class="checkbox3__input_tags">
+                                <input type="checkbox" class="checkbox3__input_tags" name="tags" value="yellow">
                                 <span class="checkbox__span_tags3"></span>
                             </label>
                         </li>
                         <li>
                             <label class="">
-                                <input type="checkbox" class="checkbox4__input_tags">
+                                <input type="checkbox" class="checkbox4__input_tags" name="tags" value="turquoise">
                                 <span class="checkbox__span_tags4"></span>
                             </label>
                         </li>
                         <li>
                             <label class="">
-                                <input type="checkbox" class="checkbox5__input_tags">
+                                <input type="checkbox" class="checkbox5__input_tags" name="tags" value="orange">
                                 <span class="checkbox__span_tags5"></span>
                             </label>
                         </li>
                         <li>
                             <label class="">
-                                <input type="checkbox" class="checkbox6__input_tags" checked>
+                                <input type="checkbox" class="checkbox6__input_tags" checked name="tags" value="pink">
                                 <span class="checkbox__span_tags6"></span>
                             </label>
                         </li>
                         <li>
                             <label class="">
-                                <input type="checkbox" class="checkbox7__input_tags">
+                                <input type="checkbox" class="checkbox7__input_tags" name="tags" value="puple">
                                 <span class="checkbox__span_tags7"></span>
                             </label>
                         </li>
                         <li>
                             <label class="">
-                                <input type="checkbox" class="checkbox8__input_tags">
+                                <input type="checkbox" class="checkbox8__input_tags" name="tags" value="green">
                                 <span class="checkbox__span_tags8"></span>
                             </label>
                         </li>
@@ -89,19 +89,19 @@
                     <ul class="views_list undotted title__list_span">
                         <li>
                             <label>
-                                <input type="radio" class="views__radio_input" name="views">
+                                <input type="radio" class="views__radio_input" name="views" value="500">
                                 <span class="views__radio_span">100-500</span>
                             </label>
                         </li>
                         <li>
                             <label>
-                                <input type="radio" class="views__radio_input" name="views" checked>
+                                <input type="radio" class="views__radio_input" name="views" value="1000" checked>
                                 <span class="views__radio_span">500-1000</span>
                             </label>
                         </li>
                         <li>
                             <label>
-                                <input type="radio" class="views__radio_input" name="views">
+                                <input type="radio" class="views__radio_input" name="views" value="2000">
                                 <span class="views__radio_span">1000-2000</span>
                             </label>
                         </li>
@@ -113,19 +113,19 @@
                     <ul class="undotted comments_list title__list_span">
                         <li>
                             <label>
-                                <input type="checkbox" class="checkbox__input_comments" checked>
+                                <input type="checkbox" class="checkbox__input_comments" name="comments" value="0" checked>
                                 <span class="checkbox__span_comments">0</span>
                             </label>
                         </li>
                         <li>
                             <label>
-                                <input type="checkbox" class="checkbox__input_comments">
+                                <input type="checkbox" class="checkbox__input_comments" name="comments" value="10">
                                 <span class="checkbox__span_comments">0-10</span>
                             </label>
                         </li>
                         <li>
                             <label>
-                                <input type="checkbox" class="checkbox__input_comments">
+                                <input type="checkbox" class="checkbox__input_comments" name="comments" value="50">
                                 <span class="checkbox__span_comments">10-50</span>
                             </label>
                         </li>
@@ -137,13 +137,13 @@
                     <ul class="views_list title__list_span undotted">
                         <li>
                             <label>
-                                <input type="radio" class="views__radio_input" name="how" checked>
+                                <input type="radio" class="views__radio_input" name="show" value="show5" checked>
                                 <span class="views__radio_span">show 5</span>
                             </label>
                         </li>
                         <li>
                             <label>
-                                <input type="radio" class="views__radio_input" name="how">
+                                <input type="radio" class="views__radio_input" name="show" value="show10">
                                 <span class="views__radio_span">show 10</span>
                             </label>
                         </li>
@@ -155,19 +155,19 @@
                     <ul class="views_list title__list_span undotted">
                         <li>
                             <label>
-                                <input type="radio" class="views__radio_input" name="sort" checked>
+                                <input type="radio" class="views__radio_input" name="sort" value="date" checked>
                                 <span class="views__radio_span">date</span>
                             </label>
                         </li>
                         <li>
                             <label>
-                                <input type="radio" class="views__radio_input" name="sort">
+                                <input type="radio" class="views__radio_input" value="title" name="sort">
                                 <span class="views__radio_span">title</span>
                             </label>
                         </li>
                         <li>
                             <label>
-                                <input type="radio" class="views__radio_input" name="sort">
+                                <input type="radio" class="views__radio_input" name="sort" value="views">
                                 <span class="views__radio_span">views</span>
                             </label>
                         </li>
@@ -175,28 +175,28 @@
                 </fieldset>
 
                 <button type="submit" class="button_search">Apply</button>
-            </div>
+            </form>
 
-            <div class="search1080px">
-    
+
+            <form name="searchForm1080px" class="search1080px">
                 <fieldset class="views">
                     <legend class="title__list">Views</legend>
                     <ul class="views_list undotted title__list_span">
                         <li>
                             <label>
-                                <input type="radio" class="views__radio_input" name="views">
+                                <input type="radio" class="views__radio_input" name="views" value="500">
                                 <span class="views__radio_span">100-500</span>
                             </label>
                         </li>
                         <li>
                             <label>
-                                <input type="radio" class="views__radio_input" name="views" checked>
+                                <input type="radio" class="views__radio_input" name="views" value="1000" checked>
                                 <span class="views__radio_span">500-1000</span>
                             </label>
                         </li>
                         <li>
                             <label>
-                                <input type="radio" class="views__radio_input" name="views">
+                                <input type="radio" class="views__radio_input" name="views" value="2000">
                                 <span class="views__radio_span">1000-2000</span>
                             </label>
                         </li>
@@ -208,19 +208,19 @@
                     <ul class="undotted comments_list title__list_span">
                         <li>
                             <label>
-                                <input type="checkbox" class="checkbox__input_comments" checked>
+                                <input type="checkbox" class="checkbox__input_comments" name="comments" value="0" checked>
                                 <span class="checkbox__span_comments">0</span>
                             </label>
                         </li>
                         <li>
                             <label>
-                                <input type="checkbox" class="checkbox__input_comments">
+                                <input type="checkbox" class="checkbox__input_comments" name="comments" value="10">
                                 <span class="checkbox__span_comments">0-10</span>
                             </label>
                         </li>
                         <li>
                             <label>
-                                <input type="checkbox" class="checkbox__input_comments">
+                                <input type="checkbox" class="checkbox__input_comments" name="comments" value="50">
                                 <span class="checkbox__span_comments">10-50</span>
                             </label>
                         </li>
@@ -232,13 +232,13 @@
                     <ul class="views_list title__list_span undotted">
                         <li>
                             <label>
-                                <input type="radio" class="views__radio_input" name="how" checked>
+                                <input type="radio" class="views__radio_input" name="show" value="show5" checked>
                                 <span class="views__radio_span">show 5</span>
                             </label>
                         </li>
                         <li>
                             <label>
-                                <input type="radio" class="views__radio_input" name="how">
+                                <input type="radio" class="views__radio_input" name="show" value="show10">
                                 <span class="views__radio_span">show 10</span>
                             </label>
                         </li>
@@ -250,19 +250,19 @@
                     <ul class="views_list title__list_span undotted">
                         <li>
                             <label>
-                                <input type="radio" class="views__radio_input" name="sort" checked>
+                                <input type="radio" class="views__radio_input" name="sort" value="date" checked>
                                 <span class="views__radio_span">date</span>
                             </label>
                         </li>
                         <li>
                             <label>
-                                <input type="radio" class="views__radio_input" name="sort">
+                                <input type="radio" class="views__radio_input" value="title" name="sort">
                                 <span class="views__radio_span">title</span>
                             </label>
                         </li>
                         <li>
                             <label>
-                                <input type="radio" class="views__radio_input" name="sort">
+                                <input type="radio" class="views__radio_input" name="sort" value="views">
                                 <span class="views__radio_span">views</span>
                             </label>
                         </li>
@@ -274,49 +274,49 @@
                     <ul class="tags__list undotted">
                         <li>
                             <label class="">
-                                <input type="checkbox" class="checkbox1__input_tags" checked>                                
+                                <input type="checkbox" class="checkbox1__input_tags" name="tags" value="blue" checked>                                
                                 <span class="checkbox__span_tags1"></span>
                             </label>
                         </li>
                         <li>
                             <label class="">
-                                <input type="checkbox" class="checkbox2__input_tags">
+                                <input type="checkbox" class="checkbox2__input_tags" name="tags" value="lightblue">
                                 <span class="checkbox__span_tags2"></span>
                             </label>
                         </li>
                         <li>
                             <label class="">
-                                <input type="checkbox" class="checkbox3__input_tags">
+                                <input type="checkbox" class="checkbox3__input_tags" name="tags" value="yellow">
                                 <span class="checkbox__span_tags3"></span>
                             </label>
                         </li>
                         <li>
                             <label class="">
-                                <input type="checkbox" class="checkbox4__input_tags">
+                                <input type="checkbox" class="checkbox4__input_tags" name="tags" value="turquoise">
                                 <span class="checkbox__span_tags4"></span>
                             </label>
                         </li>
                         <li>
                             <label class="">
-                                <input type="checkbox" class="checkbox5__input_tags">
+                                <input type="checkbox" class="checkbox5__input_tags" name="tags" value="orange">
                                 <span class="checkbox__span_tags5"></span>
                             </label>
                         </li>
                         <li>
                             <label class="">
-                                <input type="checkbox" class="checkbox6__input_tags" checked>
+                                <input type="checkbox" class="checkbox6__input_tags" checked name="tags" value="pink">
                                 <span class="checkbox__span_tags6"></span>
                             </label>
                         </li>
                         <li>
                             <label class="">
-                                <input type="checkbox" class="checkbox7__input_tags">
+                                <input type="checkbox" class="checkbox7__input_tags" name="tags" value="puple">
                                 <span class="checkbox__span_tags7"></span>
                             </label>
                         </li>
                         <li>
                             <label class="">
-                                <input type="checkbox" class="checkbox8__input_tags">
+                                <input type="checkbox" class="checkbox8__input_tags" name="tags" value="green">
                                 <span class="checkbox__span_tags8"></span>
                             </label>
                         </li>
@@ -324,14 +324,14 @@
                 </fieldset>
 
                 <button type="submit" class="button_search">Apply</button>
-            </div>
+            </form>
 
             <div class="search2">
-                <form action="#" class="search2__form">
+                <form action="#" class="search2__form" name="linesearch">
                     <div>
                         <label>
                             <span class="title_hidden">Search</span>
-                            <input type="search" class="search__input">
+                            <input type="search" class="search__input" name="text" value="">
                         </label>
                     </div>
                 <button type="submit" class="button_search button_search_dop">Search</button>
@@ -348,5 +348,6 @@
     @@include('blocks/footer.html')
 
     <script src="js/menu.js"></script>
+    <script src="js/blog.js"></script>
   </body>
 </html>
