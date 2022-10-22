@@ -495,6 +495,47 @@ fieldset {
     display: none;
 }
 
+.pagination_blog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.pagination_a {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #E5E5E5;
+    text-decoration: none;
+}
+
+.pagination_a:focus {
+    color: #000000;
+}
+
+.pagination_left {
+    width: 42px;
+    height: 42px;
+    border: none;
+    background: transparent;
+    background-image: url(../../img/index/pursone/slide/btn/btnprev.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.pagination_right {
+    width: 42px;
+    height: 42px;
+    border: none;
+    background: transparent;
+    background-image: url(../../img/index/pursone/slide/btn/btnnext.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1080px) {
     .search__input {
         width: 521px;
