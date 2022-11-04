@@ -508,6 +508,7 @@ fieldset {
     line-height: 22px;
     color: #E5E5E5;
     text-decoration: none;
+    margin-right: 10px;
 }
 
 .pagination_a:focus {
@@ -534,6 +535,10 @@ fieldset {
     background-repeat: no-repeat;
     background-size: 100%;
     cursor: pointer;
+}
+
+.checked_pagination {
+    color: #000000;
 }
 
 @media screen and (max-width: 1080px) {
